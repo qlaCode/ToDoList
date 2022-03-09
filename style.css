@@ -1,0 +1,70 @@
+button:hover{
+    cursor: pointer;
+    background-color: #73E831;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+}
+
+h1{
+    text-align: center;
+    color: royalblue;
+    width: 50%
+}
+
+#input-task{
+    border-color: royalblue;
+    border-radius: 3px;
+    border-width: 0.5px;
+    width: 40%;
+}
+
+#add-task-button{
+    background-color: royalblue;
+    border-color: royalblue;
+    border-radius: 3px;
+    border-width: 1px;
+    color: white;
+    width: 20%;
+
+}
+
+.myForm{
+    align-content: space-around;
+    margin-left: 25%;
+    width:45%;
+}
+
+.delete-btn{
+    background-color: darkred;
+    border-radius: 50%;
+    border-width: 0;
+    color: white;
+    margin-left: 10px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 0 0 15%;
+    width: 300px;
+}
+
+span{
+    display: inline;
+    margin: 0 0 0 2%;
+    width: 40%;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.complete > span{
+    text-decoration: line-through;
+    color: grey;
+}
